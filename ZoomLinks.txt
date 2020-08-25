@@ -1,0 +1,1 @@
+links = {"MATH 3191":"https://ucdenver.zoom.us/j/9075054260", "CSCI 1510":"https://ucdenver.zoom.us/j/93021681949", "CSCI 2312":"https://ucdenver.zoom.us/j/94719353806", "LING 2000": "https://ucdenver.zoom.us/j/6128547467"}
