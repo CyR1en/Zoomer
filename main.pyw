@@ -7,7 +7,7 @@ from configuration import ConfigFile, ConfigNode
 
 class ZoomerApp:
     def __init__(self, app_name='Zoomer'):
-        self.config = ConfigFile(name='ZoomLinks')
+        self.config = ConfigFile(name='links')
         self.icon = Icon(app_name, icon=utils.create_image(), menu=self.make_menu())
         self.state = False
 
