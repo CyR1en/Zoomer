@@ -17,7 +17,7 @@ class ZoomerApp:
         for key in links_dict:
             menus = menus + (MenuItem(
                 key,
-                self.make_action(key, links_dict[key]),
+                self.make_action(links_dict[key]),
                 checked=None
             ),)
         menus = menus + (MenuItem(
@@ -35,7 +35,7 @@ class ZoomerApp:
         self.icon.run()
 
     @staticmethod
-    def make_action(title='title', link='link'):
+    def make_action(link='link'):
         def action():
             ZoomerApp.open_link(link)
         return action
